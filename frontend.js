@@ -10,6 +10,6 @@ let  sendingdata = await fetch("http://localhost:3000/post",
 {
       method: "POST",
       headers:{"content-type":"application/json"},
-     body: JSON.stringify({ username: "example" })
+     body: JSON.stringify({ username: "adil" })
 }
 )
